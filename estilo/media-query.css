@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*Typical Devies Breakpoints
+
+pequenas telas 
+celular 
+tablet
+desktop
+grandes telas 
+
+*/
+
+@media screen and (min-width: 768px) (max-width:992px) {
+    
+    body {
+        background-image : linearGradient(to top, gray, yellow)
+    }
+    
+    section#login {
+        width: 80vw; 
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+        
+        }
+}
+
+@media screen and (min-width: 992px) {
+    
+    body {
+        background-image : linearGradient(to top, gray, yellow)
+    }
+
+    section#login {
+        width: 990px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+}
+
