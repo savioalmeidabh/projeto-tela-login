@@ -46,10 +46,10 @@ section#login {
 }
 
 section#login > div#imagem {
-    display: blo;
+    display: block;
     background: #5f2c82 url(../imagens/pexels-pixabay-35543.jpg) no-repeat;
     height: 200px;
-    background-size: 300px;
+    background-size: cover;
     background-position: left bottom;
 }
 
