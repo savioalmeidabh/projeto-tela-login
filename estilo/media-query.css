@@ -36,7 +36,8 @@ grandes telas
 @media screen and (min-width: 992px) {
     
     body {
-        background-image : linearGradient(to top, gray, yellow)
+        background-image : linear-gradient(to top, gray, yellow)
+
     }
 
     section#login {
@@ -53,5 +54,14 @@ grandes telas
         float: right;
         width: 50%;
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+        
+    div#formulario > p {
+        font-size: 1.3em;
+    }
+
 }
 
