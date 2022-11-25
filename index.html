@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     
-    /*link para puxar do google icones para nosso login, porem tem q acrescentar uma iclas, n fiz dessa vez*/
+    <!--link para puxar do google icones para nosso login, porem tem q acrescentar uma iclas, n fiz dessa vez-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
     <link href="/website/css/uicons-solid-rounded.css" rel="stylesheet"
 
@@ -21,22 +21,23 @@
             </div>
             <div id="formulario">
                 <h1>login</h1>
-                <p>seja bem vindo(a) novamente. faça login para acessar sua conta e fazer as configurações no seu ambiente</p>
+                <p>seja bem vindo(a) novamente. <br>faça login para acessar sua conta e fazer as configurações no seu ambiente</p>
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
-                         /*iclass seria aqui*/    
-                        <i class="fi-sr-eye"></i>                  
+                         <!--iclass seria aqui-->    
+                        <i class="material-icons">person</i>                  
                         <input type="email" name="login" id="ilogin" placeholder="seu email" autocomplete="email" required maxlength="30">
                         <label for="ilogin">login</label>
                     </div>
                      <div class="campo">
-                        
+                        <i class="material-icons">vpn_key</i>                  
                         <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="6" maxlength="20">
                         <label for="isenha">senha</label>
                      </div>  
                      <input type="submit" value="entrar"> 
-                     <a href="esqueci.html">
-                        esqueci a senha         
+                     <a href="esqueci.html" class="botao">
+                        esqueci a senha 
+                        <i class="material-icons">mail</i>>
                      </a>
                 </form>
             </div>
